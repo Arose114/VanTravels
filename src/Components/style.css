@@ -1,0 +1,38 @@
+
+.hero-section{
+    background-image: url(../../public/banner_5.jpg);
+    background-repeat: no-repeat;
+    max-width: 1800px;
+    height: 500px;
+    
+}
+
+.nav-item{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.navbar{
+    width: 100%;
+}
+.center{
+    text-align: center;
+    font-size: 16px;
+}
+
+.bg-hero{
+    background-color:bisque;
+}
+.about-section{
+    background-image: url('../../public/banner_6.jpg');
+    background-repeat: no-repeat;
+    max-width: 1800px;
+    height: 400px;
+}
+.bg-about{
+    background-color: lightblue;
+}
