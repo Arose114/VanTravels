@@ -6,7 +6,7 @@ import About from './Components/About';
 
 function App() {
   return (
-    <div className="container mt-3 bg-light w-50 ">
+    <div className="container col-md-8 col-lg-8 mt-3 bg-light">
       <BrowserRouter>
       <Navbar />
       <Routes>

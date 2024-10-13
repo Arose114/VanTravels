@@ -1,9 +1,11 @@
 
 .hero-section{
     background-image: url(../../public/banner_5.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
-    max-width: 1800px;
-    height: 500px;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
     
 }
 
@@ -29,9 +31,12 @@
 }
 .about-section{
     background-image: url('../../public/banner_6.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
-    max-width: 1800px;
-    height: 400px;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+   
 }
 .bg-about{
     background-color: lightblue;
