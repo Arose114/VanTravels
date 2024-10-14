@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
 
 <div className='row p-3 bg-about'>
   <h4 className='mt-2'>Your destinatination is waiting. <br/>Your van is ready.</h4>
-  <button className='btn btn-lg btn-dark mt-2 mx-3 w-50'>Explore our Van</button>
+  <button className='btn btn-lg btn-light mb-4 mt-2 mx-3 w-50'>Explore our Van</button>
 </div>
     </div>
   )
