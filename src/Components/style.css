@@ -36,7 +36,7 @@
     background-color:bisque;
 }
 .about-section{
-    background-image: url('../../public/banner_6.jpg');
+    background-image: url("https://assets.scrimba.com/advanced-react/react-router/beach-bum.png");
     background-size:cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -108,3 +108,17 @@ font-weight:bold;
     color:#161616;
 
 }
+
+.top{
+    margin-top: 20%;
+    margin-left: -50px;
+}
+
+@media screen and (max-width: 800px) {
+    .top {
+      margin-top: 0;
+      margin-left: 0;
+     
+     
+    }
+  }

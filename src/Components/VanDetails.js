@@ -5,7 +5,6 @@ import './style.css'
 
 const VanDetails = () => {
     const params=useParams()
-    console.log(params)
     const[van, setVan]=useState(null)
 
     useEffect(()=>{
