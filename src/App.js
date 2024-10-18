@@ -17,6 +17,8 @@ import HostVanDetails from './Components/Hosts/HostVanDetails';
 import HostVanDetailsPricing from './Components/Hosts/HostVanDetailsPricing';
 import HostVanDetailsDescription from './Components/Hosts/HostVanDetailsDescription';
 import HostVanDetailsPhotos from './Components/Hosts/HostVanDetailsPhotos';
+import PageNotFound from './PageNotFound';
+import Login from './Login';
 
 
 function App() {
@@ -42,7 +44,11 @@ function App() {
         </Route>
         <Route path="reviews" element={<Reviews />} />
         </Route>
+        <Route path="*" element={<PageNotFound />} />
+
         </Route>
+        <Route path="login" element={<Login />} />
+
 
       </Routes>
       

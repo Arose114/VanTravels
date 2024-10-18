@@ -1,6 +1,7 @@
 import React from 'react'
 import  { Link, NavLink } from 'react-router-dom'
 import './style.css'
+import unit from './asset/images/unit.png'
 
 const Navbar = () => {
   const activeStyle={
@@ -28,6 +29,10 @@ const Navbar = () => {
                 
             <li className='nav-item'> <NavLink className='nav-link'  style={({isActive})=>isActive? activeStyle : null}  to='/about'>About</NavLink></li>
             <li className='nav-item'> <NavLink className='nav-link'   style={({isActive})=>isActive? activeStyle : null} to='/vans'>Vans</NavLink></li>
+            <li className='nav-item'> <NavLink className='nav-link'   style={({isActive})=>isActive? activeStyle : null} to='/login'>
+             <img src={unit} alt='profile' className='img ' width='30' height='30'/>
+              
+              </NavLink></li>
             </ul>
 
         </div></div></nav></div></header>
